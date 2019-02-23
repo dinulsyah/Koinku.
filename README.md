@@ -1,2 +1,2 @@
 # Koinku.
-Koinku - Week 1
+Koinku - Week 1 (index.html)
