@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+/* Style the top navigation bar */
+.topnav{
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  height: 80px;
+}
+/* Style the topnav links */
+.topnav a {
+  font-family: 'Faster One', cursive;
+  height: 100%;
+  float: left;
+  display: block;
+  color: #c54141;
+  text-align: center;
+  text-decoration: none;
+  margin: 14px 8px;
+  font-size: 30px;
+}
+
+.topnav .name{
+  padding-top: 7px;
+}
+
+.title{
+  font-family: 'Staatliches', cursive;
+  padding-top:80px;
+  text-align: center;
+  color:#c54141;
+  height: 180px;
+}
+
+.title h1{
+  padding-top: 20px;
+  font-size: 50px;
+}
+
+.content{
+  width: 100%;
+  background-color:rgb(212, 209, 209);
+  height: 2100px;
+}
+
+.content .menu-bar{ 
+  padding-top:40px;
+  padding-left: 400px;
+  color:white;
+  font-family: 'Staatliches', cursive;
+  font-size: 30px;  
+}
+
+.content .menu-bar .menu-bar-detail{
+  color:black;
+  text-decoration: none;
+  float: left;
+  margin-left:40px;   
+}
+
+.content .menu-bar .menu-bar-detail-on{
+  color:#c54141;
+  text-decoration: underline;
+  float: left;
+  margin-left:40px;   
+}
+
+.content .about-img{
+  padding-top:100px;
+  padding-left: 450px;
+  height: 30%;
+}
+
+.text-paragraph{
+  text-align: center;
+  padding-top:270px;
+  font-family: 'Staatliches', cursive;
+  font-size: 17px;
+}
+
+.text-paragraph p{
+  padding-left:300px;
+  padding-right: 300px;
+  color: #424b48;
+  font-size: 20px;
+}
+
+.footer{
+  background-color: #d3e0e6;
+  padding: 50px 0px;
+}
+
+.row{
+  max-width: 75rem;
+  margin-left: 100px;
+  margin-right: auto;
+  height: 170px;
+}
+
+.columns{
+  float: left;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+}
+
+.medium-6{
+  width: 25%;
+}
+
+.footer-logo{
+  font-family: 'Faster One', cursive;
+  font-size: 30px;  
+  color:#424b48;
+}
+
+.footer-address,.contact{
+  font-family: 'Vesper Libre', serif;
+  font-size: 14px;
+  color:#424b48;
+}
+
+.contact a{
+  text-decoration: none;
+  color:#424b48;
+}
+
+.phead{
+    width: 600px;
+    font-family: 'Staatliches', cursive;
+    background-color: #c54141;
+    color: bisque;
+    border-radius: 30px;
+}
+
+p{
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    font-size: 30px;
+    margin: 25px auto;
+    color: #c54141
+}
+.crypto{
+    width: 100px;
+    height: 100px;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+
+.crypto-first{
+  width: 100px;
+  height: 100px;
+  margin-left: 350px;
+  margin-top: 40px;
+}
+
+
+h2 {
+    font-family: 'Staatliches', cursive;
+    color: #c54141;
+    font-size: 35px;
+    text-align: center;
+    background-color: bisque;
+
+}
+
+.head-connect{
+    text-align: center;
+    color: #c54141;
+    margin: 25px auto;
+    background-color: black;
+    border-radius: 50px;  
+}
+.container-function{
+    width: 800px;
+    height:1050px;
+    margin: 0 auto;
+}
+
+.container-connect{
+    width: 800px;
+    height: 900px;
+    margin: 0 auto;
+}

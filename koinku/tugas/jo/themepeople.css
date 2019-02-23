@@ -1,0 +1,204 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the top navigation bar */
+.topnav{
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  height: 80px;
+}
+/* Style the topnav links */
+.topnav a {
+  font-family: 'Faster One', cursive;
+  height: 100%;
+  float: left;
+  display: block;
+  color: #c54141;
+  text-align: center;
+  text-decoration: none;
+  margin: 14px 8px;
+  font-size: 30px;
+}
+
+.topnav .name{
+  padding-top: 7px;
+}
+
+.title{
+  font-family: 'Staatliches', cursive;
+  padding-top:80px;
+  text-align: center;
+  color:#c54141;
+  height: 180px;
+}
+
+.title h1{
+  padding-top: 20px;
+  font-size: 50px;
+}
+
+.content{
+  width: 100%;
+  background-color:rgb(212, 209, 209);
+  height: 1800px;
+}
+
+.content .menu-bar{ 
+  padding-top:40px;
+  padding-left: 60px;
+  color:white;
+  font-family: 'Staatliches', cursive;
+  font-size: 30px;  
+}
+
+.content .menu-bar .menu-bar-detail{
+  color:black;
+  text-decoration: none;
+  float: left;
+  margin-left:40px;   
+}
+
+.content .menu-bar .menu-bar-detail-on{
+  color:#c54141;
+  text-decoration: underline;
+  float: left;
+  margin-left:40px;   
+}
+
+.content .about-img{
+  padding-top:100px;
+  padding-left: 510px;
+  height: 30%;
+}
+
+.text-paragraph{
+  text-align: center;
+  padding-top:270px;
+  font-family: 'Staatliches', cursive;
+  font-size: 17px;
+}
+
+.text-paragraph p{
+  padding-left:300px;
+  padding-right: 300px;
+  color: #424b48;
+  font-size: 20px;
+}
+
+
+/* Style Foto */
+
+.Foto{
+  display: inline-block;
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 100%;
+  margin: 0px auto 0px 210px;
+}
+
+/* Style Foto per Orang */
+
+.Rizky .Foto img{
+  width: auto;
+  height: 100%;
+  margin-left: 0px;
+}
+.Yonathan .Foto img{
+  width: auto;
+  height: auto;
+  margin-left: -70px;
+  margin-top: -120px;
+}
+
+.Arif .Foto img{
+  width: auto;
+  height: 100%;
+  margin-left: 0px;
+}
+.Fakhrul .Foto img{
+  width: auto;
+  height: 100%;
+  margin-left: -70px;
+}
+/*style Judul*/
+
+.JudulNama{
+  font-size:25px;
+  font-weight:700;
+  padding-bottom:auto;
+  margin:0px;
+  text-align:center;
+  font-family: 'Staatliches', cursive;
+}
+
+.position{
+  font-size: 18px;
+  font-style: italic;
+  color: red;
+  padding:0px;
+  margin:0px;
+  text-align: center;
+  text-align:center;
+  font-family: 'Staatliches', cursive;
+}
+
+.bio{
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+}
+
+/*positioning*/
+.Yonathan, .Arif, .Rizky, .Fakhrul{
+  margin-top: 100px;
+}
+
+.contentPeople{
+  width: 600px;
+  margin: 50px auto;
+}
+
+
+.footer{
+  background-color: #d3e0e6;
+  padding: 50px 0px;
+}
+
+.row{
+  max-width: 75rem;
+  margin-left: 100px;
+  margin-right: auto;
+  height: 170px;
+}
+
+.columns{
+  float: left;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+}
+
+.medium-6{
+  width: 25%;
+}
+
+.footer-logo{
+  font-family: 'Faster One', cursive;
+  font-size: 30px;  
+  color:#424b48;
+}
+
+.footer-address,.contact{
+  font-family: 'Vesper Libre', serif;
+  font-size: 14px;
+  color:#424b48;
+}
+
+.contact a{
+  text-decoration: none;
+  color:#424b48;
+}
+

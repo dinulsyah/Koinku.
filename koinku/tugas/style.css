@@ -1,0 +1,33 @@
+h1 {
+text-align: left;
+color: red;
+margin-left: 50px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.business{
+    font-family: Helvetica;
+    text-align: center;
+
+    
+}
+.products{
+    text-align: center;
+}
+.products li{
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+}
+.teams, .teams li{
+    text-align: center
+}
+.teams li{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
